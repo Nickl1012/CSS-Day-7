@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px blue double;
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    border: 2px red ridge;
+}
